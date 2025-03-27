@@ -1,0 +1,115 @@
+body{
+    background-color: #f1f1f1;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centrar el contenido del header */
+    align-items: center;
+    padding: 20px 0;
+    background-color: #66c7ff;
+    text-align: center;
+    color: white;
+ 
+}
+/*index .html 🐖​🐖​🐖​🐖​🐖​🐖​🐖​*/
+#TypesCars{
+    background-color: #ade2ff;
+    display: block;
+    padding: 10px;
+    width: full;
+    height: auto;
+    
+    
+}
+.Text{
+    background-color: #cfeeff;
+    display: block;
+    padding: 10px;
+    width: full;
+    height: 100%;
+    
+}
+
+.contenedorPrincipal {
+    display: flex; /* Usar Flexbox para organizar los elementos */
+    gap: 20px; /* Espacio entre el formulario y la sección derecha */
+    margin: 40px; /* Margen exterior */
+    width: auto;
+    height: auto;
+}
+
+.imagenIn{
+    display: inline;
+    padding-left: 100px;
+    margin: 30px;
+    width: auto;
+    
+}
+.button-img{
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    
+}
+
+.button-text{
+    display: flex;
+    background-color: antiquewhite;
+    width: full;
+    height: auto;
+}
+.imagen{
+    width: 100%;
+    height: auto;
+}
+
+
+/* 🔹 Estilos del Carrusel */
+#image-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* 🔹 Contenedor de Imagen y Texto */
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* 🔹 Imagen alineada a la izquierda */
+.image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 🔹 Botones del Carrusel */
+.carousel-btn {
+    background-color: #66c7ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
